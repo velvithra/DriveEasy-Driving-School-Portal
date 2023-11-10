@@ -1,0 +1,153 @@
+
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&family=Poppins:wght@600&family=Yellowtail&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   
+   
+}
+#navbar{
+  position: sticky;
+  top:0;
+  left:0;
+  z-index: 99;
+  padding:.3rem 3rem;
+  background: black;
+  color:whitesmoke;
+  box-shadow: 5px 5px 20px rgba(51, 149, 214, 0.5);
+}
+.navbar-brand{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Yellowtail', cursive;
+}
+#mynavbar .btn{
+  border-radius: 15px;
+}
+.navbar-nav{
+  text-decoration: none;
+}
+#mynavbar a:hover{
+  background-color:rgb(81, 212, 232);
+}
+.navbar-toggler{
+  background-color: aqua;
+}
+section{
+  width:100%;
+  min-height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+#home{
+  background-image: url(/img/driving-car.jpg);
+  background-size:cover;
+  background-position: center;
+  flex-direction: column;
+}
+#home .input-group{
+  border-radius: 5px;
+   width:45%;
+   height:50px;
+}
+
+/*services*/
+#services{
+  background: linear-gradient(to right, yellowgreen,yellow);
+}
+#services h2{
+  font-weight: 800;
+  font-size: 50px;
+}
+.list-group{
+  font-weight: 700;
+  list-style: none;
+  line-height: 3;
+}
+/*courses*/
+#courses img{
+  width:250px;
+  height:250px;
+}
+
+.card{
+  width:240px;
+  height:400px;
+  background: rgb(243, 238, 238) !important;
+  border:none;
+  top:3px;
+  box-shadow: 15px 20px 20px rgba(0,0,0,.3),inset 3px 4px 10px rgb(237, 229, 229);
+  border-radius: 20px !important;
+  overflow:hidden;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition:.2s;
+}
+h5{
+  font-family: 'poppins',sans-serif;
+  font-weight: 100;
+}
+#courses .btn{
+  background: rgb(10, 180, 10);
+  color:white;
+}
+#registrationForm .btn{
+  width:150px;
+  background: rgb(10, 180, 10);
+  color:white;
+}
+.card:hover{
+  box-shadow:inset 5px 5px 10px  rgba(0,0,0,.3),
+              inset -4px -4px 10px white;
+  transition:.2s;
+}
+
+
+/*modal*/
+.modal-body{
+  background-color: rgb(162, 229, 243);
+}
+
+/*registration*/
+.formdetails h5{
+  width:100%;
+  font-weight: 700;
+}
+/*modalforsignin*/
+.modal-title{
+  color: rgb(57, 57, 227);
+  font-family: 'Poppins', sans-serif;
+    font-family: 'Yellowtail', cursive;
+}
+ .modal-footer .btnlogin{
+  border-radius: 3px;
+  background: gray;
+}
+
+
+/* contact */
+#contact img{
+  height:100%;
+}
+.box{
+  width:80%;
+  margin-top:10px;
+}
+form{
+  display:flex;
+  flex-direction: column;
+}
+fieldset{
+  width:150px;
+  height:150px;
+}
+/*personaldetails*/
+.containerdetails{
+  font-family: 'Poppins', sans-serif;
+    font-family: 'Yellowtail', cursive;
+}
